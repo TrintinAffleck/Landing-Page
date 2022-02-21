@@ -1,0 +1,28 @@
+.header {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.header-links {
+    color: #E5E7EB;
+}
+
+.hero-container,
+.header {
+    background-color: #1F2937;
+}
+
+.hero-text :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text :nth-child(2) {
+    font-size: 24px;
+}
+
+button,
+.call-to-action-container {
+    background-color: #3882F6;
+}
