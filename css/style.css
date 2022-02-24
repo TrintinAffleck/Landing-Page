@@ -1,14 +1,13 @@
-.header {
+.header .header-text{
     font-size: 24px;
     color: #F9FAF8
 }
 
-.header-links {
-    color: #E5E7EB;
-}
-
 .hero-container,
-.header {
+.header,
+.footer,
+.info-container h3,
+.hero-container {
     background-color: #1F2937;
 }
 
@@ -18,11 +17,28 @@
     color: #F9FAF8;
 }
 
-.hero-text :nth-child(2) {
-    font-size: 24px;
+.hero-text :nth-child(2),
+.header-links li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-container h3 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-container .quote-text {
+    font-size: 36px;
+    font-style: italic;
 }
 
 button,
 .call-to-action-container {
     background-color: #3882F6;
+    color: #1F2937;
 }
