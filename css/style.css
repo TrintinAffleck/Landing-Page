@@ -6,9 +6,35 @@
 .hero-container,
 .header,
 .footer,
-.info-container h3,
 .hero-container {
     background-color: #1F2937;
+}
+body {
+    margin: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.hero-text {
+    max-width: 400px;
 }
 
 .hero-text :first-child {
@@ -32,6 +58,10 @@
     border: 2px solid;
     border-color: #3882F6;
     border-radius: 25px;
+}
+
+.info-images {
+    max-width: 200px
 }
 .quote-container {
     background-color: #E5E7EB;
