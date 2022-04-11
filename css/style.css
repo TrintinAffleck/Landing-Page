@@ -74,6 +74,7 @@ body {
 
 .info {
     max-width: 200px;
+    margin: 25px;
 }
 .quote-container {
     background-color: #E5E7EB;
@@ -95,11 +96,19 @@ body {
 button,
 .call-to-action-container {
     background-color: #3882F6;
-    color: #1F2937;
+    color: white;
 }
 
 .call-to-action-container {
-    margin: 100px;
+    margin: 75px;
     padding: 20px;
     border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80px;
 }
