@@ -29,7 +29,7 @@ body {
 }
 .hero-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
 }
@@ -60,20 +60,46 @@ body {
     border-radius: 25px;
 }
 
+.info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .info-images {
-    max-width: 200px
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
 }
 .quote-container {
     background-color: #E5E7EB;
-}
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 
+}
 .quote-container .quote-text {
     font-size: 36px;
     font-style: italic;
 }
-
+.quote-container .quote-name {
+    display: flex;
+    align-items: flex-end;
+}
 button,
 .call-to-action-container {
     background-color: #3882F6;
     color: #1F2937;
+}
+
+.call-to-action-container {
+    margin: 100px;
+    padding: 20px;
+    border-radius: 5px;
 }
